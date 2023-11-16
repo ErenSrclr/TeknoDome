@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="TeknoDome.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Assets/css/Arayuz.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="anaTasiyici">
+            <div class="baslikTasiyici">
+                <div class="logo">
+                    <a href="Default.aspx">
+                        <img src="Assets/SayfaResimleri/TDlogo.png" /></a>
+                </div>
+                <asp:Panel ID="pnl_girisyok" runat="server" CssClass="uyePanel">
+                    <a href="UyeOl.aspx">Uye Ol</a>
+                    <a href="UyeGiris.aspx">Giriş Yap</a>
+                </asp:Panel>
+                <asp:Panel ID="pnl_girisvar" runat="server" CssClass="uyePanel">
+                    Merhaba <asp:LinkButton ID="lbtn_uye" runat="server" OnClick="lbtn_uye_Click"></asp:LinkButton>
+                    <asp:LinkButton ID="lbtn_cikis" runat="server" OnClick="lbtn_cikis_Click">Çıkış</asp:LinkButton>
+                </asp:Panel>
+            </div>
+            <div style="clear: both"></div>
+            <div class="menuTasiyici">
+                <ul>
+                    <asp:Repeater ID="rp_kategoriler" runat="server">
+                        <ItemTemplate>
+                            <a href="#">
+                                <li><%# Eval("Isim") %></li>
+                            </a>
+                        </ItemTemplate>
+                    </asp:Repeater>
+                </ul>
+                <div style="clear: both"></div>
+            </div>
+
+            <div class="iceriktasiyici">
+                <div class="sol">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div class="sag">
+                    <a href="https://www.turhost.com/r/104820/hosting">
+                        <img src="Assets/SayfaResimleri/160x600.gif" /></a>
+                </div>
+
+            </div>
+        </div>
+    </form>
+
+
+</body>
+</html>
+

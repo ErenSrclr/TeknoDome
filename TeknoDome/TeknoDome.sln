@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeknoDome", "TeknoDome\TeknoDome.csproj", "{2DD42C13-C4C1-450F-9EFD-D51E25BA5447}"
+	ProjectSection(ProjectDependencies) = postProject
+		{31752807-B1E9-4696-8241-2A683349F961} = {31752807-B1E9-4696-8241-2A683349F961}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "C:\Users\erens\source\repos\IttirgecliGoturgec\DataAccessLayer\DataAccessLayer.csproj", "{31752807-B1E9-4696-8241-2A683349F961}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DD42C13-C4C1-450F-9EFD-D51E25BA5447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD42C13-C4C1-450F-9EFD-D51E25BA5447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD42C13-C4C1-450F-9EFD-D51E25BA5447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD42C13-C4C1-450F-9EFD-D51E25BA5447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31752807-B1E9-4696-8241-2A683349F961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31752807-B1E9-4696-8241-2A683349F961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31752807-B1E9-4696-8241-2A683349F961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31752807-B1E9-4696-8241-2A683349F961}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0CA9C1B-9CA5-44EB-99AA-308D1E3A1044}
+	EndGlobalSection
+EndGlobal

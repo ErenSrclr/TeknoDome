@@ -1,0 +1,140 @@
+﻿body {
+    font-family: Calibri;
+    background-color: #1b1b1b; /* Koyu arka plan rengi */
+    color: white; /* Koyu metin rengi */
+}
+
+.anaTasiyici {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .anaTasiyici .baslikTasiyici .logo {
+        width: 250px;
+        float: left;
+    }
+
+        .anaTasiyici .baslikTasiyici .logo img {
+            width: 128px;
+        }
+
+    .anaTasiyici .baslikTasiyici .uyePanel {
+        margin-top: 18px;
+        width: 200px;
+        float: right;
+    }
+
+        .anaTasiyici .baslikTasiyici .uyePanel a {
+            padding-left: 10px;
+            color: white; /* Koyu metin rengi */
+        }
+
+.menuTasiyici {
+    color: white; /* Koyu metin rengi */
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+
+    .menuTasiyici ul {
+        list-style-type: none;
+        margin-top: 0;
+    }
+
+        .menuTasiyici ul a {
+            color: white; /* Koyu metin rengi */
+        }
+
+            .menuTasiyici ul a:hover li {
+                text-decoration: underline;
+            }
+
+        .menuTasiyici ul li {
+            float: left;
+            padding: 10px 20px;
+        }
+
+.iceriktasiyici {
+}
+
+    .iceriktasiyici .sol {
+        width: 980px;
+        float: left;
+    }
+
+    .iceriktasiyici .sag {
+        margin-top: 20px;
+        width: 200px;
+        float: right;
+    }
+
+.makale {
+}
+
+    .makale .baslik {
+    }
+
+    .makale .resim img {
+        width: 975px;
+    }
+
+    .makale .altbaslik {
+        color: gray;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-top: 1px solid silver;
+        border-bottom: 1px solid silver;
+    }
+
+    .makale .ozet {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+.basarili {
+    background-color: #33A6A6;
+    border: 1px solid #1a6f6f;
+    color: white;
+    padding: 12px;
+    border-radius: 7px;
+}
+
+.basarisiz {
+    background-color: #ffcece;
+    border: 1px solid #820b0b;
+    color: #820b0b;
+    padding: 12px;
+    border-radius: 7px;
+}
+
+.uyelikPanel {
+    border: 1px solid silver;
+    padding: 10px 50px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.satir {
+    padding-bottom: 20px;
+}
+
+    .satir .metinKutu {
+        width: 98%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid silver;
+        background-color: #333; /* Koyu arka plan rengi */
+        color: white; /* Koyu metin rengi */
+    }
+
+.uyeButton {
+    padding: 7px 55px;
+    background-color: forestgreen;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+    .uyeButton:hover {
+        background-color: darkgreen;
+    }

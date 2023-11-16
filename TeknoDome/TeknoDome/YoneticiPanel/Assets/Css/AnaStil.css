@@ -1,0 +1,213 @@
+﻿*, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri;
+    background-color: #202020; 
+    color: #c0c0c0; 
+}
+
+.ustKisim {
+    min-height: 32px;
+    background-color: #1a1a1a; 
+    color: white;
+    padding: 10px;
+}
+
+.logo {
+    width: 250px;
+    float: left;
+}
+
+.kullanicipanel {
+    width: 250px;
+    float: right;
+    padding: 5px;
+}
+
+    .kullanicipanel a {
+        color: white;
+    }
+
+.menu {
+    width: 250px;
+    padding: 10px;
+    min-height: 884px;
+    background-color: #404040; 
+    float: left;
+}
+
+    .menu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+        .menu ul a {
+            color: #9966cc; 
+            text-decoration: none;
+        }
+
+            .menu ul a li {
+                padding: 3px;
+                border-bottom: 1px solid #9966cc; 
+            }
+
+            .menu ul a:hover li {
+                background-color: #a8a8a8; 
+            }
+
+.icerik {
+    padding: 20px;
+    width: 1400px;
+    float: left;
+}
+
+.panel {
+    min-height: 300px;
+}
+
+.panelBaslik {
+    padding: 10px;
+    background-color: #333; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 1px solid #555;
+    border-bottom: none;
+    color: white; 
+}
+
+.panelIcerik {
+    padding: 10px;
+    border: 1px solid #555;
+}
+
+    .panelIcerik .IcerikSol {
+        width: 650px;
+        float: left;
+    }
+
+    .panelIcerik .IcerikSag {
+        width: 650px;
+        float: left;
+        padding-left: 30px;
+    }
+
+    .panelIcerik .satir {
+        margin-top: 10px;
+    }
+
+    .panelIcerik .metinKutu {
+        width: 97%;
+        font-size: 12pt;
+        padding: 7px;
+        margin-top: 10px;
+        border-radius: 7px;
+        border: 1px solid #555;
+    }
+
+    .panelIcerik .ddlKutu {
+        width: 100%;
+        font-size: 12pt;
+        padding: 7px;
+        margin-top: 10px;
+        border-radius: 7px;
+        border: 1px solid #555;
+        background-color: white;
+    }
+
+    .panelIcerik .button {
+        background-color: #333; 
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 13pt;
+        font-weight: 900;
+        border-radius: 7px;
+    }
+
+        .panelIcerik .button:hover {
+            background-color: #6d6b6b; 
+        }
+
+    .panelIcerik .hata {
+        background-color: #ff6666; 
+        border: 1px solid #990000;
+        color: #990000;
+        padding: 12px;
+        border-radius: 7px;
+    }
+
+    .panelIcerik .basarili {
+        background-color: #339999; 
+        border: 1px solid #1a6f6f;
+        color: white;
+        padding: 12px;
+        border-radius: 7px;
+    }
+
+    .panelIcerik table {
+        width: 100%;
+    }
+
+        .panelIcerik table tr {
+        }
+
+            .panelIcerik table tr th {
+                border-bottom: 2px solid #555;
+                background-color: #333;
+                color: gray;
+                padding: 7px;
+                text-align: left;
+            }
+
+            .panelIcerik table tr td {
+                padding: 7px;
+                border-bottom: 1px solid #555;
+            }
+
+        .panelIcerik table .alt td {
+            background-color: #333;
+        }
+
+.tablobutton {
+    padding: 3px 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+    margin: 5px 2px;
+}
+
+.duzenle {
+    background-color: #339999;
+    border: 1px solid #1a6f6f;
+}
+
+.sil {
+    background-color: #ff6666;
+    border: 1px solid #990000;
+    color: #990000;
+}
+
+.Playroom-1-hex {
+    color: #8C1F66;
+}
+
+.Playroom-2-hex {
+    color: #323673;
+}
+
+.Playroom-3-hex {
+    color: #339999;
+}
+
+.Playroom-4-hex {
+    color: #cc6600;
+}
+
+.Playroom-5-hex {
+    color: #bf5c00;
+}
